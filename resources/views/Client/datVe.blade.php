@@ -9,7 +9,11 @@ DatVe
 @stop
  
 @section('js')
-
+<script>
+$( "i" ).click(function() {
+   $(this).parent().parent().remove();
+});
+</script>
 
 @stop
 
@@ -97,11 +101,10 @@ DatVe
             <b>Chiều đi</b>
             <br>
             <form>
-              <div id="emty-info"></div>
               <div class="form-row" id="info-ticket">
                 <div class="col-md-10">
                   <h6><small>
-                    SE108<br>
+                    SE8<br>
                     Sài Gòn - Nha Trang<br>
                     25/12/2019 06:00<br>
                     NCL toa 1 ghế 69<br>                  
