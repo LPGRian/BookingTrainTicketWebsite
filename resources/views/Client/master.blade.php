@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
-        <a class="navbar-brand" href="#" >
+        <a class="navbar-brand" href="{{url('/home')}}" >
           <img src="{{url('assets/train-logo.PNG')}}" alt="" style="width: auto; height: 80px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -22,25 +22,25 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"> Tìm vé <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{{url('/home')}}"> Tìm vé <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Thông tin đặt chỗ</a>
+              <a class="nav-link" href="{{url('/traCuuDatCho')}}">Thông tin đặt chỗ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kiểm tra vé</a>
+              <a class="nav-link" href="{{url('/kiemTraVe')}}">Kiểm tra vé</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Khuyến mãi</a>
+              <a class="nav-link" href="{{url('/home')}}">Khuyến mãi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Các quy định</a>
+              <a class="nav-link" href="{{url('/home')}}">Các quy định</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hướng dẫn</a>
+              <a class="nav-link" href="{{url('/home')}}">Hướng dẫn</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Liên hệ</a>
+              <a class="nav-link" href="{{url('/lienHe')}}">Liên hệ</a>
             </li>
             
         </div>

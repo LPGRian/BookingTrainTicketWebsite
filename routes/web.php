@@ -42,3 +42,7 @@ Route::get('/kqTraCuuDatCho', function () {
 Route::get('/xacNhan', function () {
     return view('Client/xacNhan');
 });
+
+Route::get('/lienHe', function () {
+    return view('Client/lienHe');
+});
