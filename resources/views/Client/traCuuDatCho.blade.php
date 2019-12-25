@@ -1,7 +1,7 @@
 @extends('client.master')
 
 @section('title')
-Home
+TraCuuDatCho
 @stop
 
 @section('css')

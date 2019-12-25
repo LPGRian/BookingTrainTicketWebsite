@@ -34,3 +34,11 @@ Route::get('/kiemTraVe', function () {
 Route::get('/traCuuDatCho', function () {
     return view('Client/traCuuDatCho');
 });
+
+Route::get('/kqTraCuuDatCho', function () {
+    return view('Client/kqTraCuuDatCho');
+});
+
+Route::get('/xacNhan', function () {
+    return view('Client/xacNhan');
+});
