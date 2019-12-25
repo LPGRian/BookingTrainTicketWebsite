@@ -138,14 +138,14 @@ ThanhToan
                     <br>
                 </form>
                 <div class="form-row col-md-13">
-                    <button type="button" class="btn btn-outline-secondary">
+                    <a class="btn btn-outline-secondary" href="{{url('/datVe')}}">
                         <i class="fas fa-angle-double-left"></i>
                         Quay lại
-                    </button>
-                    <button type="button" class="btn btn-custom">
+                    </a>
+                    <a class="btn btn-custom" href="{{url('/xacNhan')}}">
                         Tiếp tục
                         <i class="fas fa-angle-double-right"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
             <br>

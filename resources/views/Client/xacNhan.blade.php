@@ -129,10 +129,10 @@ XacNhan
         <br>
       </fieldset>
       <div class="form-row col-md-12">
-        <button type="button" class="btn btn-custom">
+        <a class="btn btn-custom" href="{{url('/home')}}">
           <i class="fas fa-home"></i>
           Trang chủ
-        </button>
+        </a>
       </div> 
     </div>
     <br>

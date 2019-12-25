@@ -69,7 +69,7 @@ Home
 	        <label for="nv">Ngày về:</label>
 	        <input type="date" class="form-control datepicker" id="nv" disabled>
 	      </div><br>
-	      <button type="submit" class="btn btn-custom">Tìm vé</button>
+	      <a class="btn btn-custom" href="{{url('/datVe')}}">Tìm vé</a>
 	    </form>
 	  </div>
 	</div>

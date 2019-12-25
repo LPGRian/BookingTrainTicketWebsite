@@ -111,7 +111,7 @@ DatVe
                   <i class="fas fa-trash-alt"></i>
                 </div>
               </div>
-              <button type="submit" class="btn btn-custom">Mua vé</button>
+              <a class="btn btn-custom" href="{{url('/thanhToan')}}">Mua vé</a>
             </form>
           </div>
         </div>
