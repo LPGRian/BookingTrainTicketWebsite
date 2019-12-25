@@ -10,25 +10,25 @@ Home
  
 @section('js')
 <script>
-  today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+    today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
 
-  $('#nd').datepicker({ 
-    format: 'dd-mm-yyyy',
-    uiLibrary: 'bootstrap4', 
-    iconsLibrary: 'materialicons', 
-    minDate: today,
-    maxDate: function(){
-      return $('#nv').val();
-    }
-  });
-  $('#nv').datepicker({ 
-    format: 'dd-mm-yyyy',
-    uiLibrary: 'bootstrap4', 
-    iconsLibrary: 'materialicons', 
-    minDate: function(){
-      return $('#nd').val();
-    }
-  });
+    $('#nd').datepicker({ 
+      format: 'dd-mm-yyyy',
+      uiLibrary: 'bootstrap4', 
+      iconsLibrary: 'materialicons', 
+      minDate: today,
+      maxDate: function(){
+        return $('#nv').val();
+      }
+    });
+    $('#nv').datepicker({ 
+      format: 'dd-mm-yyyy',
+      uiLibrary: 'bootstrap4', 
+      iconsLibrary: 'materialicons', 
+      minDate: function(){
+        return $('#nd').val();
+      }
+    });
 </script>
 <script src="{{url('js/client/home.js')}}" type="text/javascript"></script>
 

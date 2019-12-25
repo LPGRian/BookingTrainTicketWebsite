@@ -17,3 +17,20 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('Client/homepage');
 });
+
+
+Route::get('/datVe', function () {
+    return view('Client/datVe');
+});
+
+Route::get('/thanhToan', function () {
+    return view('Client/thanhToan');
+});
+
+Route::get('/kiemTraVe', function () {
+    return view('Client/kiemTraVe');
+});
+
+Route::get('/traCuuDatCho', function () {
+    return view('Client/traCuuDatCho');
+});
