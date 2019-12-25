@@ -1,0 +1,133 @@
+.bg-custom
+{
+    background-color: black;
+}
+.content-parent
+{
+    background-color: #F4F4F4;
+    
+}
+.content-child
+{
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.footer
+{
+    background-color: #111517;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.footer-child
+{
+    margin: 0 auto;
+    max-width: 512px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-title
+{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text-copyright
+{
+    color: #828282;
+    font-size: x-small;
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111517;
+    padding: 0px;
+    
+  }
+  
+.grid-container > div {
+    background-color: #111517;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.btn-custom
+{
+    padding: 10px  20px;
+    margin: 0 auto;
+    background: #FE8802;
+    overflow:hidden;
+    border: none;
+    transition:0.5s;
+    text-align: center;
+    display: block;
+}    
+
+.btn-custom:hover
+{
+    background: #F0563F;
+    
+}
+
+.form-custom
+{
+    justify-content: center;
+    display: flex;
+}
+
+.alert-custom
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.t-custom
+{
+    background: rgb(184, 183, 183);
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.i-custom
+{
+    width: 100px;
+}
+
+.a-custom
+{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn-custom
+{
+    width: 145px;
+    height: 50px;
+    margin: auto;
+    background: #FE8802;
+    overflow:hidden;
+    border: none;
+    transition:0.5s;
+    text-align: center;
+    display: block;
+}    
+
+.btn-custom:hover
+{
+    background: #F0563F;   
+}
+

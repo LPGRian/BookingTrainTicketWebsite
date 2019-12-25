@@ -1,0 +1,176 @@
+.bg-custom
+{
+    background-color: black;
+}
+.content-parent
+{
+    background-color: #F4F4F4;
+    
+}
+.content-child
+{
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.footer
+{
+    background-color: #111517;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.footer-child
+{
+    margin: 0 auto;
+    max-width: 512px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-title
+{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text-copyright
+{
+    color: #828282;
+    font-size: x-small;
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111517;
+    padding: 0px;
+    
+  }
+  
+.grid-container > div {
+    background-color: #111517;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.img
+{
+    position: relative;
+}
+.card-custom
+{
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.card-header-custom
+{
+    background: rgba(0, 0, 0, 0.63);
+    color: #F25F35;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card-body-custom
+{
+    color: white;
+}
+
+.btn-custom
+{
+    width: 40%;
+    margin: 0 auto;
+    background: #FE8802;
+    overflow:hidden;
+    border: none;
+    transition:0.5s;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}    
+
+.btn-custom:hover
+{
+    background: #F0563F;
+    
+}
+
+.cd-custom
+{
+    color: #F25F35;
+    background: rgba(0, 0, 0, 0.8);
+}
+.c-h-custom
+{
+    background: #F25F35;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.c-custom
+{
+    border: 2px solid #F25F35;
+    border-radius: 12px;
+    background: #F25F35;
+    width: 200px;
+    height: auto;
+}
+
+.c-b-custom
+{
+    background: white;
+    border-radius: 12px;
+}
+
+span
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 2px auto;
+    background-color: white;
+}
+
+.img-custom
+{
+    background: lightseagreen;
+    width: 70px;
+    height: 30px;
+}
+
+.ex1 {
+    background-color: lightblue;
+    margin: auto;
+    overflow-x: scroll;
+}
+
+.col-custom
+{
+    width: 40px;
+    display: inline-block;
+}
+
+.col-child-custom
+{
+    height: 30px;
+    background: orangered;
+    margin: 4px auto;
+    justify-content: center;
+    display: flex;
+    border-left: orchid;
+    
+}

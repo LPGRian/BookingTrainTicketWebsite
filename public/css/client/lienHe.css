@@ -1,0 +1,74 @@
+.bg-custom
+{
+    background-color: black;
+}
+.content-parent
+{
+    background-color: #F4F4F4;
+    
+}
+.content-child
+{
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.footer
+{
+    background-color: #111517;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.footer-child
+{
+    margin: 0 auto;
+    max-width: 512px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-title
+{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text-copyright
+{
+    color: #828282;
+    font-size: x-small;
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111517;
+    padding: 0px;
+    
+  }
+  
+.grid-container > div {
+    background-color: #111517;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-title-custom
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FE8802;
+}
+
+.row-custom
+{
+    margin-bottom: 40px;
+}
+
